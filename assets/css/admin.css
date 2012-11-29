@@ -1,0 +1,119 @@
+*,body {font-family: PT Sans !important;font-size:14px;} 
+img#header-logo{display: none;} 
+#adminmenu div.wp-menu-image {float: left;width: 1px;height: 28px;} 
+#adminmenu .wp-menu-image a{display: none;} 
+#wp-admin-bar-wp-logo{display: none;}
+#adminmenuback, #adminmenuwrap {
+    background-color: #222;
+    border-color: #444;
+	border-right-color: #ddd;
+}
+#adminmenu li.wp-menu-separator {
+    display: none;
+	/*background: #0e6ac8;
+    border-color: #0a4b8d;*/
+}
+#adminmenu div.separator {
+    border-color: #0e6ac8;
+}
+#adminmenu a.menu-top, .folded #adminmenu li.menu-top, #adminmenu .wp-submenu .wp-submenu-head {
+    border-top-color: #444;
+    border-bottom-color: #000;
+}
+#adminmenu a {color:#fff;}
+#adminmenu .wp-submenu a {color:#777;}
+#adminmenu a:hover, #adminmenu li.menu-top>a:focus, #adminmenu ul.wp-submenu a:hover {
+    color: #fff;
+}
+#adminmenu li.menu-top:hover>a, #adminmenu li.menu-top.focused>a, #adminmenu li.menu-top>a:focus {
+    background-color: #000;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+}
+#adminmenu li.wp-not-current-submenu:hover>a {
+	border-top-color: #000;
+    border-bottom-color: #000;
+}
+#adminmenu li.wp-not-current-submenu .wp-menu-arrow {
+    border-top-color: #000;
+    border-bottom-color: #000;
+    background: #000;
+}
+#adminmenu li.wp-not-current-submenu .wp-menu-arrow div {
+    background: #000;
+    border-color: #000;
+}
+#collapse-menu {
+    color: rgba(255,255,255,0.3);
+}
+#collapse-menu:hover {
+    color: rgba(255,255,255,1.0);
+}
+#collapse-menu:hover #collapse-button {
+    border-color: rgba(255,255,255,0.4);
+	background-color: #333;
+    background-image: -moz-linear-gradient(center bottom , #333, #444);
+}
+#collapse-button {
+    border-color: rgba(255,255,255,0.2);
+	background-color: #000;
+    background-image: -moz-linear-gradient(center bottom , #111, #000);
+}
+#adminmenu .awaiting-mod, #adminmenu .update-plugins, #sidemenu a .update-plugins, #rightnow .reallynow {
+	background-color: #464646;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	color: #FFFFFF;
+}
+.folded #adminmenu .wp-submenu-head {
+	border-bottom-color: #ccc;
+	border-top-color: #ccc;
+}
+.folded #adminmenu li.wp-has-current-submenu, .folded #adminmenu li.current.menu-top {
+    border-bottom-color: #6D6D6D;
+    border-top-color: #808080;
+}
+#wpadminbar * {
+    font: normal 13px/28px;
+    color: #777;
+    text-shadow: #fff 0 -1px 0;
+}
+#wpadminbar {
+    color: #777;
+	border-bottom: 1px solid #ccc;
+	background-color: #ffffff;
+	background-image: -ms-linear-gradient(bottom, #f3f3f3, #ffffff 5px);
+    background-image: -moz-linear-gradient(bottom, #f3f3f3, #ffffff 5px);
+    background-image: -o-linear-gradient(bottom, #f3f3f3, #ffffff 5px);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#f3f3f3), to(#ffffff));
+    background-image: -webkit-linear-gradient(bottom, #f3f3f3, #ffffff 5px);
+    background-image: linear-gradient(bottom, #f3f3f3, #ffffff 5px);
+}
+#wpadminbar .quicklinks>ul>li {
+    border-right: 1px solid #eee;
+}
+#wpadminbar .quicklinks>ul>li>a, #wpadminbar .quicklinks>ul>li>.ab-empty-item {
+    border-right: 1px solid #ddd;
+}
+#wpadminbar .quicklinks .ab-top-secondary>li {
+    border-left: 1px solid #ddd;
+    border-right: 0;
+    float: right;
+}
+#wpadminbar .quicklinks .ab-top-secondary>li>a, #wpadminbar .quicklinks .ab-top-secondary>li>.ab-empty-item {
+    border-left: 1px solid #eee;
+    border-right: 0;
+}
+#wpadminbar .ab-top-menu>li:hover>.ab-item, #wpadminbar .ab-top-menu>li.hover>.ab-item, #wpadminbar .ab-top-menu>li>.ab-item:focus, #wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus {
+    color: #333;
+    background-color: #fff;
+    background-image: none;
+}
+#wpadminbar .ab-top-secondary {
+    background-color: #fff;
+    background-image: none;
+    float: right;
+}
+/*#wp-admin-bar-comments, #wp-admin-bar-new-post, #wp-admin-bar-new-media, #wp-admin-bar-new-link, #wp-admin-bar-new-page{display: none;}*/
+#wp-admin-bar-comments {display: none;}
+#adminmenu a.menu-top {
+	font-weight: normal;
+}
