@@ -9,6 +9,10 @@ This plugin takes care of a lot of that, and will allow you to customize the css
 Happy customizing!
 
 Installation Instructions
-===================
+-------------------------
 1. Once you've got the files unarchived, please consider editing the plugin to work best with your situation. There are multiple options available for what you can do to modify the admin screen.
 2. After you're done modifying the plugin, upload it to your plugins directory and activate it.
+
+Special Notice
+--------------
+Please don't use this plugin without modifying the admin and login page css. The styles have been modified in the most recent versions of WordPress.
