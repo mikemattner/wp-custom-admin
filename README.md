@@ -15,4 +15,4 @@ Installation Instructions
 
 Special Notice
 --------------
-Please don't use this plugin without modifying the admin and login page css. The styles have been modified in the most recent versions of WordPress.
+This plugin is no longer supported. Might or might not work.
